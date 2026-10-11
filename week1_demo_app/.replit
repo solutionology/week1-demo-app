@@ -1,0 +1,12 @@
+entrypoint = "app.py"
+modules = ["python-3.11"]
+run = "python -m streamlit run app.py --server.address=0.0.0.0 --server.port=8501"
+
+[deployment]
+build = ["sh", "-c", "python -m pip install -r requirements.txt"]
+run = ["sh", "-c", "python -m streamlit run app.py --server.address=0.0.0.0 --server.port=8501"]
+deploymentTarget = "vm"
+
+[[ports]]
+localPort = 8501
+externalPort = 80

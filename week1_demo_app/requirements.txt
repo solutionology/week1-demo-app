@@ -1,0 +1,4 @@
+streamlit>=1.41,<2
+requests>=2.32,<3
+python-dotenv>=1.0,<2
+tomli>=2.0,<3; python_version < '3.11'

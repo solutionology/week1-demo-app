@@ -1,0 +1,27 @@
+/* Static CSS only. Model-generated text is escaped before HTML rendering. */
+.block-container { max-width: 1440px; padding-top: 2.5rem; }
+h1 { font-size: clamp(2rem, 4vw, 3.1rem) !important; letter-spacing: -0.035em; color: #133449; }
+h2 { font-size: 1.8rem !important; color: #133449; }
+h3 { font-size: 1.3rem !important; color: #11665f; margin-top: 0.8rem; }
+[data-testid="stMarkdownContainer"] p,
+[data-testid="stMarkdownContainer"] li { line-height: 1.75; }
+[data-testid="stForm"] { background: #fff; border: 1px solid #d4e2e8; border-radius: 16px; padding: 1.4rem; }
+[data-baseweb="tab-list"] { gap: 1rem; border-bottom: 1px solid #ccdce4; }
+[data-baseweb="tab"] { font-size: 1rem; font-weight: 600; padding: 0.8rem 0.3rem; }
+[data-baseweb="tab"][aria-selected="true"] { color: #11665f; }
+.risk-table-scroll { overflow-x: auto; border: 1px solid #cfdee5; border-radius: 12px; margin: 1rem 0 2rem; }
+.risk-table-scroll:focus { outline: 3px solid #147d76; outline-offset: 3px; }
+.risk-table { width: 100%; min-width: 760px; border-collapse: collapse; table-layout: fixed; font-size: 0.96rem; line-height: 1.65; color: #203a4c; }
+.risk-table caption { text-align: left; padding: 0.8rem 1rem; font-size: 0.88rem; color: #466070; background: #edf4f7; }
+.risk-table thead th { background: #174758; color: #fff; font-size: 0.88rem; font-weight: 650; text-align: left; padding: 1rem; }
+.risk-table td, .risk-table tbody th { padding: 1.1rem 1rem; vertical-align: top; text-align: left; border-bottom: 1px solid #dce6eb; overflow-wrap: anywhere; white-space: pre-wrap; }
+.risk-table tbody th { font-weight: 400; }
+.risk-table tbody tr { background: #fff; }
+.risk-table tbody tr:nth-child(even) { background: #f0f6f8; }
+.risk-table tbody tr:hover { background: #e5f2ef; }
+.risk-table strong { display: block; color: #105f59; font-size: 1rem; margin-bottom: 0.45rem; }
+.risk-description { display: block; }
+.discovery-questions { padding: 0; list-style: none; counter-reset: questions; }
+.discovery-questions li { counter-increment: questions; display: flex; gap: 1rem; align-items: baseline; margin: 0.7rem 0; padding: 1rem 1.25rem; background: #fff; border: 1px solid #d8e4e9; border-left: 4px solid #147d76; border-radius: 8px; font-size: 1.05rem; color: #203a4c; white-space: pre-wrap; overflow-wrap: anywhere; }
+.discovery-questions li::before { content: counter(questions, decimal-leading-zero); font-weight: 700; color: #11665f; }
+@media (max-width: 640px) { .block-container { padding-left: 1rem; padding-right: 1rem; } }
