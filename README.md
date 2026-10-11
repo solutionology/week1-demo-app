@@ -182,4 +182,3 @@ in the prompt. If the model returns an invalid structure, the app makes at most
 one additional LLM call to repair it using the original context and sources.
 Web search is not repeated. This may add latency and, with OpenRouter, token
 cost. Provider connection, authentication, and HTTP errors are not retried.
->>>>>>> e2b2d43 (Initial commit)
