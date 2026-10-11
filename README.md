@@ -1,5 +1,5 @@
 # week1-demo-app
-Week 1 - Demo App
+
 =======
 # Customer Discovery
 
